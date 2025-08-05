@@ -11,6 +11,8 @@
 
 
 // Nested 
+import React from "react";
+import ReactDOM from "react-dom/client"
 const heading2 = React.createElement("div" , {id:"outer"} , [ 
     React.createElement("div" , {id : "inner"} , 
     [React.createElement("h1" , {}  , "I'm inside div"),
