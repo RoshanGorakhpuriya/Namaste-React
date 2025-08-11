@@ -1,3 +1,50 @@
-#heading{
-    color: red;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.nav-items > ul{
+    display: flex;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Card{
+    /* background-color: grey;
+    border: 1px solid black; */
+    width: 200px;
+    height: 500px;
+    padding: 5px;
+}
+
+.Card:hover {
+    cursor: pointer;
+    border:1px solid black
+}
+
+.res-Card {
+    width: 100%;
+}
+
+.res-container {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
 }
